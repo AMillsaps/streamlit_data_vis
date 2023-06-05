@@ -113,9 +113,9 @@ st.write("""
 #### Data sourced from https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes 
 
 ##### Filter below to see a table of data by crash factor for vehicle 1 and time of day for accidents where injury or death was present""")
-inclulde_unspecified_factors = st. checkbox('Include crashes with unspecified factors for vehicle 1')
+inclulde_unspecified_factors = st. checkbox('Include crashes with unspecified factors for vehicle 1 (will slow performance)')
 
-include_unspecified_factors_vehicle2 = st. checkbox('Include crashes with unspecified factors for vehicle 2')
+include_unspecified_factors_vehicle2 = st. checkbox('Include crashes with unspecified factors for vehicle 2 (will slow performance)')
 
 # In[26]:
 
