@@ -63,7 +63,7 @@ df['injured+killed'] = df['number_injured'] + df['number_killed']
 # In[10]:
 
 
-df.info()
+#df.info()
 
 
 # In[11]:
