@@ -69,8 +69,8 @@ df['injured+killed'] = df['number_injured'] + df['number_killed']
 # In[11]:
 
 
-df.plot(kind='scatter', figsize=[9, 6], x='hour', y='injured+killed', 
-                          title="People Injured or Killed By Hour", xlabel='Time of Day', ylabel='People Injured or Killed')
+#df.plot(kind='scatter', figsize=[9, 6], x='hour', y='injured+killed', 
+                          #title="People Injured or Killed By Hour", xlabel='Time of Day', ylabel='People Injured or Killed')
 
 
 # In[12]:
@@ -89,8 +89,8 @@ df.plot(kind='scatter', figsize=[9, 6], x='hour', y='injured+killed',
 # In[14]:
 
 
-df['number_injured'].plot(kind='hist', figsize=[9, 6], x='number_injured', bins=25, 
-                          title="Frequency of Number of People Injured in Accident")
+#df['number_injured'].plot(kind='hist', figsize=[9, 6], x='number_injured', bins=25, 
+                          #title="Frequency of Number of People Injured in Accident")
 
 
 # In[15]:
