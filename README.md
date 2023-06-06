@@ -18,4 +18,3 @@ Anyone who would like to launch the project on their local machine can do so wit
 - run the streamlit application via the command 'streamlit run app.py'
 - navigate a new browser tab to the address specified in the terminal 
 
-Note to Yulia: I believe all reccomendations/comments have been addressed but if not please let me know. 
